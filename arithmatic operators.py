@@ -8,4 +8,4 @@ print("The product is ",a*b);
 print("The quoutient in float is ",a/b);
 print("The remainder is ",a%b);
 print("The quoutient in integer is ",a//b);
-print("The exponenial is ",a**b);
+print("The exponenial is ",a**b); 
