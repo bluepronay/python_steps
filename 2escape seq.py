@@ -1,4 +1,4 @@
-#comments,escape sequenec character
+#comments,escape sequenece character
 print("hii\nhello");             #\n is used for next line
 print("hii kaisan ba",7,8,sep='&');            #sep is used if we want to connect parts of print statements with the help of anything '' and "" both can be used
 #by default sep is space
