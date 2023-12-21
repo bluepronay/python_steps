@@ -58,8 +58,11 @@ print(a.index("IS"));
 #print(a.index("is"));                error dikha dega        
 
 a="Proni12"
+b="Done"
 #13. str.isalnum()             alphanumeric hai ya nhi batayega true ya false karke
 print(a.isalnum());              #agar number nhi ho to false de dega number hona v jaruri hai
+print("New answer"); 
+print(b.isalnum());   #it is giving true
 
 #14. str.isalpha()                 only alphabets mai true dega
 a="!!My name is Proni is Bhoumick***!!"; 
@@ -81,8 +84,10 @@ print(b.isprintable());
 
 #18. str.isspace()                check karta hai ki sirf white space hai ya nhi
 b="\t\t";
+c="done dana done"; 
 print(a.isspace());
 print(b.isspace());          #sirf space hai that's why true
+print(c.isspace());          #sirf space nhi  hai that's why false
 
 #19. str.title()              har word k pehle letter ko uppercase bana deta hai  like title of anything
 a="my name is proni Bhoumick";
