@@ -17,5 +17,5 @@ d=input("Enter the Last Name : ");
 print("Your Name is \"",c,d,"\"");
 e=int(input("enter : ")); 
 f=int(input("enter : "));
-print(e+f);
+print(e+f); #output print karega
 
