@@ -1,4 +1,4 @@
-#functions in python two types inbuild and userdefined
+#functions in python two types inbuilt and userdefined
 #def keyword is used 
 #pass keyword is used if we want to skip the body of the function for some time
 
