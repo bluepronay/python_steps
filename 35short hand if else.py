@@ -10,3 +10,8 @@ print(c)
 #yha pe c ko string ki value de di 
 
 #note :- ye sirf simpler problems mai hi use karna nested if else mai yeh pagla jata hai
+
+a=int(input("Enter the first no : ")); 
+b=int(input("Enter the second no : ")); 
+c=a/b if(a>b) else b/a if(b>a) else  87; 
+print(c); 
