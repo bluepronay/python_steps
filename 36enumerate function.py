@@ -16,8 +16,8 @@ for index,mark in enumerate(marks):
 
 
 #yeh decide v kar skta hai ki starting index kaha se start hona chahiye
-for index,mark in enumerate(marks,start=1):
+for inde,mark in enumerate(marks,start=1):
     print(mark); 
-    if(index==6):
+    if(inde==6):
         print("Shabaash beta 100 lane k liye!!"); 
  
