@@ -22,7 +22,7 @@ print(sent1);                    #aise to nhi hoga
 print(f"Hii I am good boy whose name is {name}, I am {age} years old from the college {clg}");
 
 price=19.45636663  #a floating value
-print(f"the price of milk is {price:.3f}")          #price:.3f is used so that i can print two decimals 
+print(f"the price of milk is {price:.4f}")          #price:.3f is used so that i can print two decimals 
 
 #if i genuinly want to print {name} in the print statements if f is there than i have to use {{name}} at this {name} will be printed
 print(f"To use the fstring in python the required format is {{name}} and {{age}},in this way we print");
