@@ -20,10 +20,12 @@ def final(b,a):
      return 1;
     except : 
        print("some error occured"); 
-       return 0;
+       return 45;
     finally : 
        print("i have executed....")
 
 
 k=final(a,8); 
 print(k)   #finally v print hua aur return statement wala v 
+
+    

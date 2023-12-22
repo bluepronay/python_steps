@@ -1,7 +1,7 @@
 #for and while loops with else 
 
 i=1; 
-for j in range(0,8,1):
+for j in range(0,8):
     print(j); 
 else : 
     print("No i ");     #jab nikal condition satisfy nhi hoga tab hoga
