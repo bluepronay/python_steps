@@ -22,4 +22,9 @@ f.close();
 
 #there is one other mode also create mode , x it is used for just creating a file , but if the same file is already created then it will show error
 
+#with function k use   hame close karne ki need nhi file ko , bas identention ka dhyan rkhna
+with open('test.txt','r') as f : 
+    data=f.read(); 
+    print(data); 
+
   
