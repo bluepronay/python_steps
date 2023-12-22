@@ -24,7 +24,8 @@ print(type(fname));
 inte=(1,2,3,3,5,6,7,2,9); 
 n=len(inte);
 print(inte.index(2));     #it will print the left most index of the element but i want to see for a particular range
-print(inte.index(2,3,n));  #it will see for element in the range given
+print(inte.index(2,3,n));  #it will see for element in the range given 3 se leakar n tak dhund kaha milega
+print(inte.index(7,4,n)); 
 
 #now main thing to perform list operations in the tuples
 name=(list)(name);      #convert into list
