@@ -49,3 +49,6 @@ print(even)                  #note yha pe ham colon nhi laga dete ,for k baad
 #     k=int(input());
 #     colours[i]=k;
 # print(colours)
+
+odd=[i for i in range(20) if(i%2!=0)]; 
+print(odd)
