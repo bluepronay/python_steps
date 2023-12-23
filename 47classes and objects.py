@@ -3,7 +3,7 @@ class person :    #aise class banate hai
     name="Proni"; 
     age=19; 
     work='Student'; 
-    def display(self):
+    def display(self):         ##MOST IMPORTANT MOSTLY HAM SELF KO PASS KARTE HAI ARGUMENT KI JAGAH AND HAR JAGAH self.  karke kaam chalate hai
         print(f"The name of the person is {self.name} age is {self.age} and work as a {self.work}");   #use of f strings
 
 a=person();                       #aise objects banate hai 
