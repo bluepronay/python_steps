@@ -48,12 +48,12 @@ while True :
       fav=int(input("Enter your choice : ")); 
       match fav : 
         case 1 : 
-          
+         print(gamerules);
 
      
        
 
-      time.sleep(3); 
+         time.sleep(3);  
 
   case 2 : 
      print(gamerules);
