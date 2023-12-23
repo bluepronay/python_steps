@@ -22,37 +22,35 @@ that's why false bolega par tuple immutable hai to uss time true bolega
 a=3; 
 b=3; 
 
-print(a==b);         
-print(a is b);
+print(a==b);         #true
+print(a is b);       #true
 
 c=[3,4,5]; 
 d=[3,4,5]; 
 
-print(c==d); 
-print(c is d); 
+print(c==d);        #true
+print(c is d);     #false
 
 e=(3,4,5); 
 f=(3,4,5); 
 
-print(e==f); 
-print(e is f); 
+print(e==f);          #true
+print(e is f);        #false
 
 g=3; 
 h='3'; 
 
-print(g==h); 
-print(g is h);
+print(g==h); #false
+print(g is h);#false
 
 i="Proni"; 
 j="Proni"; 
 
-print(i==j); 
-print(i is j); 
+print(i==j); #true
+print(i is j); #true
 
 k=None; 
 l=None; 
 
-print(k==l); 
-print(k is l); 
-
-
+print(k==l); #true
+print(k is l); #true
