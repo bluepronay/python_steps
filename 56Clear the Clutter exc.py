@@ -18,10 +18,6 @@ iske baad vo sari files 1.png,2.png aise save ho chuki hogi
 NOTE : : : 
 SO ISS KO CHALATE TIME PLS 10, 11 NAYE FILE BANA LE .png karke kisi v naam se 
 varna yeh kaam nhi karega
-
-
-
-
 '''
 
 import os; 
