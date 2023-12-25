@@ -8,5 +8,12 @@ def text_to_speech(text):
     speaker = win32com.client.Dispatch("SAPI.SpVoice")
     speaker.Speak(text)
 
-text_to_speech("Korbo Lorbo Jeetbo re...."); 
+ 
+file=open('cupid.txt','r'); 
+
+for line in file :
+ line=file.readline(); 
+ print(line);
+ text_to_speech(line);  
+file.close()
 
