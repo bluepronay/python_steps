@@ -11,6 +11,7 @@ no=[1,2,3,5,8];
 while(n:=len(no)>0):  #yha v assign kiya length of list ko
     print(no.pop()); 
 
+# print(n)
 
 #ISKE LINES OF CODE DEKHO
 food=list(); 
