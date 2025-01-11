@@ -50,4 +50,3 @@ avg=avg(a,b,c,d,e);
 print("The average is ",avg);
 
 
-
